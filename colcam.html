@@ -2,16 +2,61 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
     <meta name="description"
-          content="Colcam is a smart collection management app that helps you capture, identify, organize, search, and manage items using photos.">
+          content="Colcam is an Android collection management app that uses photos, object recognition, text recognition, search, and item details to help you organize your collection.">
 
-    <meta name="theme-color" content="#2563eb">
+    <meta name="theme-color"
+          content="#2563eb">
 
-    <title>Colcam - Smart Collection Management</title>
+    <meta property="og:title"
+          content="Colcam - Smart Collection Management">
 
-    <link rel="stylesheet" href="style.css">
+    <meta property="og:description"
+          content="Organize your collection with photos, object recognition, text recognition, search, and custom item details.">
+
+    <meta property="og:type"
+          content="website">
+
+    <meta property="og:url"
+          content="https://picompute.github.io/colcam.html">
+
+    <meta property="og:image"
+          content="https://picompute.github.io/colcam-preview.png">
+
+    <title>Colcam - Collection Management App for Android</title>
+
+    <link rel="icon"
+          type="image/png"
+          href="favicon.png">
+
+    <link rel="stylesheet"
+          href="style.css">
+
+
+    <!-- Structured data -->
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MobileApplication",
+        "name": "Colcam",
+        "operatingSystem": "Android",
+        "applicationCategory": "UtilitiesApplication",
+        "description": "Colcam is an Android collection management app that uses photos, object recognition, text recognition, search, and item details to help organize collections.",
+        "url": "https://picompute.github.io/colcam.html",
+        "downloadUrl": "https://play.google.com/store/apps/details?id=com.pi.colcam",
+        "author": {
+            "@type": "Organization",
+            "name": "Perspective Intelligence",
+            "url": "https://picompute.github.io/"
+        }
+    }
+    </script>
+
 </head>
 
 <body>
@@ -19,14 +64,19 @@
 <header>
     <div class="container">
 
-        <a class="logo" href="index.html">
+        <a class="logo"
+           href="index.html">
             Perspective Intelligence
         </a>
 
         <nav>
-            <a href="index.html">Home</a>
 
-            <a href="colcam.html" class="active">
+            <a href="index.html">
+                Home
+            </a>
+
+            <a href="colcam.html"
+               class="active">
                 Colcam
             </a>
 
@@ -43,6 +93,7 @@
             <a href="mailto:zloongCompute@gmail.com">
                 Contact
             </a>
+
         </nav>
 
     </div>
@@ -50,6 +101,7 @@
 
 
 <main>
+
 
     <!-- =====================================================
          HERO
@@ -64,14 +116,17 @@
             </span>
 
             <h1>
-                Capture your collection.<br>
-                Find it when you need it.
+                Colcam: Smart Collection Management
             </h1>
 
+            <p class="hero-tagline">
+                Capture your collection. Find it when you need it.
+            </p>
+
             <p class="hero-text">
-                Colcam helps you manage your collection using photos,
-                object recognition, text recognition, and searchable
-                item information.
+                Colcam helps you organize your collection using
+                photos, object recognition, text recognition,
+                searchable information, and custom item details.
             </p>
 
             <div class="hero-buttons">
@@ -91,7 +146,7 @@
             </div>
 
             <p class="hero-note">
-                Available for Android
+                Available on Android
             </p>
 
         </div>
@@ -110,7 +165,7 @@
             <div class="section-heading">
 
                 <span class="eyebrow">
-                    HOW IT WORKS
+                    HOW COLCAM WORKS
                 </span>
 
                 <h2>
@@ -157,8 +212,8 @@
                     </h3>
 
                     <p>
-                        Colcam can recognize text and identify possible
-                        objects in your photo to help describe the item.
+                        Colcam can recognize text and suggest
+                        possible object names for items in your photos.
                     </p>
 
                 </div>
@@ -175,8 +230,8 @@
                     </h3>
 
                     <p>
-                        Save the item, add useful information, and
-                        search your collection whenever you need it.
+                        Save the item, add useful information,
+                        and search your collection when you need it.
                     </p>
 
                 </div>
@@ -204,7 +259,7 @@
                 </span>
 
                 <h2>
-                    Everything you need to manage your collection
+                    Collection management made easier
                 </h2>
 
                 <p>
@@ -226,12 +281,12 @@
                     </div>
 
                     <h3>
-                        Photo-Based Items
+                        Photo-Based Collection
                     </h3>
 
                     <p>
                         Use photos as the foundation for organizing
-                        and managing your collection.
+                        and managing items in your collection.
                     </p>
 
                 </div>
@@ -248,8 +303,8 @@
                     </h3>
 
                     <p>
-                        Colcam can suggest possible object names
-                        based on the item shown in your photo.
+                        Get possible object names based on what
+                        appears in your photos.
                     </p>
 
                 </div>
@@ -267,7 +322,7 @@
 
                     <p>
                         Recognize text appearing in your photos
-                        and use it as part of your item's information.
+                        and use it as part of the item's information.
                     </p>
 
                 </div>
@@ -280,12 +335,12 @@
                     </div>
 
                     <h3>
-                        Select the Right Description
+                        Choose the Right Name
                     </h3>
 
                     <p>
-                        Review possible object names and choose the
-                        description that best matches your item.
+                        Review possible object names and select
+                        the description that best matches your item.
                     </p>
 
                 </div>
@@ -320,8 +375,8 @@
                     </h3>
 
                     <p>
-                        Search your collection using recognized text,
-                        item information, and other available details.
+                        Search and filter your collection using
+                        recognized text and item information.
                     </p>
 
                 </div>
@@ -334,12 +389,12 @@
                     </div>
 
                     <h3>
-                        Custom Item Details
+                        Item Details
                     </h3>
 
                     <p>
-                        Add information such as purchase date,
-                        price, quantity, location, and notes.
+                        Add purchase date, price, quantity,
+                        location, notes, and other useful information.
                     </p>
 
                 </div>
@@ -356,8 +411,8 @@
                     </h3>
 
                     <p>
-                        Help keep your collection organized by
-                        detecting potential duplicate items.
+                        Detect potential duplicate items to help
+                        keep your collection organized.
                     </p>
 
                 </div>
@@ -400,11 +455,11 @@
                 <div>
 
                     <span class="eyebrow">
-                        COLLECTION DETAILS
+                        ITEM INFORMATION
                     </span>
 
                     <h2>
-                        Keep the information that matters
+                        Keep the details that matter
                     </h2>
 
                     <p>
@@ -414,9 +469,8 @@
                     </p>
 
                     <p>
-                        Keep the details you need without having
-                        to maintain a separate spreadsheet or
-                        handwritten list.
+                        Keep the details you need to understand,
+                        manage, and find your collection later.
                     </p>
 
                 </div>
@@ -426,67 +480,42 @@
 
 
                     <div class="detail-item">
-
-                        <strong>
-                            Purchase Date
-                        </strong>
-
+                        <strong>Purchase Date</strong>
                         <span>
                             Record when you acquired the item.
                         </span>
-
                     </div>
 
 
                     <div class="detail-item">
-
-                        <strong>
-                            Price
-                        </strong>
-
+                        <strong>Price</strong>
                         <span>
                             Keep track of the item's purchase price.
                         </span>
-
                     </div>
 
 
                     <div class="detail-item">
-
-                        <strong>
-                            Quantity
-                        </strong>
-
+                        <strong>Quantity</strong>
                         <span>
                             Record how many items you have.
                         </span>
-
                     </div>
 
 
                     <div class="detail-item">
-
-                        <strong>
-                            Location
-                        </strong>
-
+                        <strong>Location</strong>
                         <span>
                             Keep track of where an item is stored.
                         </span>
-
                     </div>
 
 
                     <div class="detail-item">
-
-                        <strong>
-                            Notes
-                        </strong>
-
+                        <strong>Notes</strong>
                         <span>
                             Add additional information about your item.
                         </span>
-
                     </div>
 
 
@@ -510,18 +539,18 @@
             <div class="section-heading">
 
                 <span class="eyebrow">
-                    FIND YOUR ITEMS
+                    SEARCH YOUR COLLECTION
                 </span>
 
                 <h2>
-                    Turn your photos into searchable information
+                    Find items using information in your photos
                 </h2>
 
                 <p>
                     Recognized text can become part of your item's
-                    description. This makes it possible to search
-                    and filter your collection using meaningful
-                    words found in your photos.
+                    description, making your collection easier to
+                    search and filter using meaningful words found
+                    in your photos.
                 </p>
 
             </div>
@@ -535,8 +564,8 @@
 
                 <p>
                     Instead of remembering exactly where an item
-                    was stored, use information associated with
-                    the item to help find it in your collection.
+                    was stored, search using information associated
+                    with the item.
                 </p>
 
             </div>
@@ -565,10 +594,9 @@
                 </h2>
 
                 <p>
-                    Colcam is designed to keep your collection
-                    information on your device. Recognition
-                    features are designed to work on-device where
-                    supported.
+                    Colcam is designed with privacy in mind.
+                    Recognition features are designed to work
+                    on-device where supported.
                 </p>
 
                 <p>
@@ -608,8 +636,8 @@
                 </h2>
 
                 <p>
-                    Colcam supports both English and Chinese,
-                    making the app easier to use for a wider
+                    Colcam supports English and Chinese,
+                    making the app accessible to a wider
                     range of collectors.
                 </p>
 
@@ -621,7 +649,7 @@
 
 
     <!-- =====================================================
-         FINAL CTA
+         GET STARTED
          ===================================================== -->
 
     <section class="cta">
@@ -680,7 +708,7 @@
             <div>
 
                 <a href="index.html">
-                    Perspective Intelligence
+                    Home
                 </a>
 
                 <span> · </span>
