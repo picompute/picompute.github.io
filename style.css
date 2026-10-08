@@ -331,15 +331,16 @@ p {
    CTA
    ========================================================= */
 
+
 .cta {
     padding: 90px 0;
-    text-align: center;
+    text-align: left;
     background: #f8fafc;
 }
 
 .cta p {
     max-width: 650px;
-    margin: 0 auto;
+    margin: 0;
     font-size: 1.1rem;
 }
 
