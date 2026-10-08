@@ -213,6 +213,13 @@ p {
     margin-top: 30px;
 }
 
+.hero-tagline {
+    margin: -8px 0 18px;
+    font-size: 1.35rem;
+    font-weight: 600;
+    color: #374151;
+}
+
 .hero-note {
     margin-top: 14px;
     font-size: 0.9rem;
